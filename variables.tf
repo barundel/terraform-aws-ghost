@@ -229,5 +229,3 @@ variable "site_url" {
   description = "Enter the URL that is used to access your publication. If using a subpath, enter the full path, https://example.com/blog/. If using SSL, always enter the URL with https://."
   type = string
 }
-
-aws acm delete-certificate --certificate-arn arn:aws:acm:us-east-1:103089792444:certificate/00809796-c638-4eff-9c96-61d1963495d9 --profile coop-dev --region us-east-1
